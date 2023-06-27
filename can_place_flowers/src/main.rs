@@ -1,5 +1,5 @@
 fn main() {
-    let mut flowerbed = vec![1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0];
+    let mut flowerbed = vec![0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0];
     let mut n = 3;
     let can_place = can_place_flowers(flowerbed, n);
     println!("so can we place?  {}", can_place);
