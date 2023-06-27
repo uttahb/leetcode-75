@@ -35,6 +35,8 @@ fn main() {
 //     }
 //     n == 0
 // }
+
+// community code
 fn can_place_flowers(mut flowerbed: Vec<i32>, n: i32) -> bool {
     println!("{:?}", flowerbed);
     flowerbed.push(0);
